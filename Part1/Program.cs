@@ -12,7 +12,21 @@ namespace Part1
             Mage = 3
         }
 
+        enum MonsterType
+        {
+            None = 0,
+            Slime = 1,
+            Orc = 2,
+            Skeleton = 3
+        }
+
         struct Player
+        {
+            public int hp;
+            public int attack;
+        }
+
+        struct Monster
         {
             public int hp;
             public int attack;
@@ -69,6 +83,68 @@ namespace Part1
             }
         }
 
+        static void CreateRandomMonster(out Monster monster)
+        {
+            Random random = new Random();
+            int randomMonster = random.Next(1, 4);
+
+            switch(randomMonster)
+            {
+                case (int) MonsterType.Slime:
+                    Console.WriteLine("슬라임이 스폰되었습니다.");
+                    monster.hp = 20;
+                    monster.attack = 2;
+                    break;
+                case (int)MonsterType.Orc:
+                    Console.WriteLine("오크가 스폰되었습니다.");
+                    monster.hp = 40;
+                    monster.attack = 4;
+                    break;
+                case (int)MonsterType.Skeleton:
+                    Console.WriteLine("스켈레톤이 스폰되었습니다.");
+                    monster.hp = 30;
+                    monster.attack = 30;
+                    break;
+                default:
+                    monster.hp = 0;
+                    monster.attack = 0;
+                    break;
+            }
+        }
+
+        static void EnterField()
+        {
+            Console.WriteLine("필드에 접속했습니다!");
+
+            // 랜덤으로 1~3 몬스터 중 하나를 리스폰
+            Monster monster;
+            CreateRandomMonster(out monster);
+
+            Console.WriteLine("[1] 전투 모드로 돌입");
+            Console.WriteLine("[2] 일정 확률로 마을로 도망");
+        }
+
+        static void EnterGame()
+        {
+            while(true)
+            {
+                Console.WriteLine("게임에 접속했습니다!");
+                Console.WriteLine("[1] 필드로 간다");
+                Console.WriteLine("[2] 로비로 돌아가기");
+
+                string input = Console.ReadLine();
+
+                switch(input)
+                {
+                    case "1":
+                        EnterField();
+                        break;
+                    case "2":
+                        return;
+                }
+            }
+        }
+
         static void Main(string[] args)
         {
             while (true)
@@ -81,7 +157,8 @@ namespace Part1
                     // 캐릭터 생성
                     Player player;
                     CreatePlayer(choice, out player);
-                    Console.WriteLine($"HP : {player.hp} , Attack : {player.attack}");
+
+                    EnterGame();
                 }
             }
         }
