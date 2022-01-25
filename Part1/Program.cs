@@ -25,19 +25,38 @@ namespace Part1
         }
     }
 
-    class Program
+    struct Mage
     {
+        public int hp;
+        public int attack;
 
-        static void Main(string[] args)
+
+        class Program
         {
-            Knight knight = new Knight();
 
-            knight.hp = 100;
-            knight.attack = 10;
+            static void KillMage(Mage mage)
+            {
+                mage.hp = 0;
+            }
 
-            knight.Move();
-            knight.Attack();
+            static void KillKnight(Knight knight)
+            {
+                knight.hp = 0;
+            }
+
+            static void Main(string[] args)
+            {
+
+                Mage mage;
+                mage.hp = 100;
+                mage.attack = 50;
+                KillMage(mage);
+
+                Knight knight = new Knight();
+                knight.hp = 100;
+                knight.attack = 10;
+                KillKnight(knight);
+            }
         }
     }
 }
-
