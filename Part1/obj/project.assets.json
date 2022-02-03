@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ohjisoo/Documents/workspace/Part1/Part1/Part1.csproj",
-      "projectName": "Part1",
-      "projectPath": "/Users/ohjisoo/Documents/workspace/Part1/Part1/Part1.csproj",
+      "projectUniqueName": "/Users/ohjisoo/Documents/workspace/Part1/Part1/Part2.csproj",
+      "projectName": "Part2",
+      "projectPath": "/Users/ohjisoo/Documents/workspace/Part1/Part1/Part2.csproj",
       "packagesPath": "/Users/ohjisoo/.nuget/packages/",
       "outputPath": "/Users/ohjisoo/Documents/workspace/Part1/Part1/obj/",
       "projectStyle": "PackageReference",

@@ -1,0 +1,14 @@
+/Users/ohjisoo/Documents/workspace/Part1/Part1/bin/Debug/netcoreapp3.1/Part2
+/Users/ohjisoo/Documents/workspace/Part1/Part1/bin/Debug/netcoreapp3.1/Part2.deps.json
+/Users/ohjisoo/Documents/workspace/Part1/Part1/bin/Debug/netcoreapp3.1/Part2.runtimeconfig.json
+/Users/ohjisoo/Documents/workspace/Part1/Part1/bin/Debug/netcoreapp3.1/Part2.runtimeconfig.dev.json
+/Users/ohjisoo/Documents/workspace/Part1/Part1/bin/Debug/netcoreapp3.1/Part2.dll
+/Users/ohjisoo/Documents/workspace/Part1/Part1/bin/Debug/netcoreapp3.1/Part2.pdb
+/Users/ohjisoo/Documents/workspace/Part1/Part1/obj/Debug/netcoreapp3.1/Part2.csproj.AssemblyReference.cache
+/Users/ohjisoo/Documents/workspace/Part1/Part1/obj/Debug/netcoreapp3.1/Part2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ohjisoo/Documents/workspace/Part1/Part1/obj/Debug/netcoreapp3.1/Part2.AssemblyInfoInputs.cache
+/Users/ohjisoo/Documents/workspace/Part1/Part1/obj/Debug/netcoreapp3.1/Part2.AssemblyInfo.cs
+/Users/ohjisoo/Documents/workspace/Part1/Part1/obj/Debug/netcoreapp3.1/Part2.csproj.CoreCompileInputs.cache
+/Users/ohjisoo/Documents/workspace/Part1/Part1/obj/Debug/netcoreapp3.1/Part2.dll
+/Users/ohjisoo/Documents/workspace/Part1/Part1/obj/Debug/netcoreapp3.1/Part2.pdb
+/Users/ohjisoo/Documents/workspace/Part1/Part1/obj/Debug/netcoreapp3.1/Part2.genruntimeconfig.cache
