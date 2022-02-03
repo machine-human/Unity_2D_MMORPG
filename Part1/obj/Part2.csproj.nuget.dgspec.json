@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ohjisoo/Documents/workspace/Part1/Part1/Part2.csproj": {}
+    "/Users/ohjisoo/Documents/workspace/Unity_2D_MMORPG/Part1/Part2.csproj": {}
   },
   "projects": {
-    "/Users/ohjisoo/Documents/workspace/Part1/Part1/Part2.csproj": {
+    "/Users/ohjisoo/Documents/workspace/Unity_2D_MMORPG/Part1/Part2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ohjisoo/Documents/workspace/Part1/Part1/Part2.csproj",
+        "projectUniqueName": "/Users/ohjisoo/Documents/workspace/Unity_2D_MMORPG/Part1/Part2.csproj",
         "projectName": "Part2",
-        "projectPath": "/Users/ohjisoo/Documents/workspace/Part1/Part1/Part2.csproj",
+        "projectPath": "/Users/ohjisoo/Documents/workspace/Unity_2D_MMORPG/Part1/Part2.csproj",
         "packagesPath": "/Users/ohjisoo/.nuget/packages/",
-        "outputPath": "/Users/ohjisoo/Documents/workspace/Part1/Part1/obj/",
+        "outputPath": "/Users/ohjisoo/Documents/workspace/Unity_2D_MMORPG/Part1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ohjisoo/.config/NuGet/NuGet.Config"
