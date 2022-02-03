@@ -1,9 +1,10 @@
 ﻿using System;
 
 namespace Part1
-{
+{ 
 
     // 객체는 속성과 기능으로 분류 가능
+
 
     // Knight
     // 속성 : hp, attack, pos
