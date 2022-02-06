@@ -8,7 +8,10 @@ namespace Part2
         {
 
             Board board = new Board();
-            board.Initialize(25);
+            Player player = new Player();
+
+            player.Initialize(1, 1, board.Size -2, board.Size-2, board);
+            board.Initialize(25,player);
 
             Console.CursorVisible = false;
 
@@ -23,12 +26,14 @@ namespace Part2
                 int currentTick = System.Environment.TickCount;
                 if (currentTick - lastTick < WAIT_TICK)
                     continue;
+                int deltaTick = currentTick - lastTick;
                 lastTick = currentTick;
                 #endregion
 
                 // 입력
 
                 // 로직
+                player.Update(deltaTick);
 
                 // 렌더링
                 Console.SetCursorPosition(0, 0);
