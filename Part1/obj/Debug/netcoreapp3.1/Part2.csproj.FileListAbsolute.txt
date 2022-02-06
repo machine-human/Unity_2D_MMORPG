@@ -18,7 +18,6 @@
 /Users/ohjisoo/Documents/workspace/Unity_2D_MMORPG/Part1/bin/Debug/netcoreapp3.1/Part2.runtimeconfig.dev.json
 /Users/ohjisoo/Documents/workspace/Unity_2D_MMORPG/Part1/bin/Debug/netcoreapp3.1/Part2.dll
 /Users/ohjisoo/Documents/workspace/Unity_2D_MMORPG/Part1/bin/Debug/netcoreapp3.1/Part2.pdb
-/Users/ohjisoo/Documents/workspace/Unity_2D_MMORPG/Part1/obj/Debug/netcoreapp3.1/Part2.csproj.AssemblyReference.cache
 /Users/ohjisoo/Documents/workspace/Unity_2D_MMORPG/Part1/obj/Debug/netcoreapp3.1/Part2.GeneratedMSBuildEditorConfig.editorconfig
 /Users/ohjisoo/Documents/workspace/Unity_2D_MMORPG/Part1/obj/Debug/netcoreapp3.1/Part2.AssemblyInfoInputs.cache
 /Users/ohjisoo/Documents/workspace/Unity_2D_MMORPG/Part1/obj/Debug/netcoreapp3.1/Part2.AssemblyInfo.cs

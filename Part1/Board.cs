@@ -24,10 +24,12 @@ namespace Part2
             _tile = new TileType[size, size];
             _size = size;
 
-            GenerateByBinaryTree();
+            // Mazes for Programmers 책에서 나오는 2개의 미로 찾기 알고리즘
+            // GenerateByBinaryTree();
+            GenerateBySideWinder();
         }
 
-        void GenerateByBinaryTree()
+        void GenerateBySideWinder()
         {
             // 일단 길을 다 막아버리는 작업
             for (int y = 0; y < _size; y++)
@@ -45,12 +47,16 @@ namespace Part2
             Random rand = new Random();
             for (int y = 0; y < _size; y++)
             {
+                int count = 1;
                 for (int x = 0; x < _size; x++)
                 {
                     if (x % 2 == 0 || y % 2 == 0)
                         continue;
 
                     if (y == _size - 2 && x == _size - 2)
+                        continue;
+
+                    if (y == _size - 2)
                     {
                         _tile[y, x + 1] = TileType.Empty;
                         continue;
@@ -62,15 +68,17 @@ namespace Part2
                         continue;
                     }
 
-                    if (rand.Next(0, 2) == 0)
+                   if (rand.Next(0, 2) == 0)
                     {
                         _tile[y, x + 1] = TileType.Empty;
+                        count++;
                     }
-                    else
+                   else
                     {
+                        int randomIndex = rand.Next(0, count);
                         _tile[y + 1, x] = TileType.Empty;
+                        count = 1;
                     }
-
                 }
             }
         }
