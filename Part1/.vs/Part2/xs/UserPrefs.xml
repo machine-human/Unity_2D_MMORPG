@@ -2,13 +2,17 @@
   <MonoDevelop.Ide.ItemProperties.Part2 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="38" Column="73" />
+      <File FileName="Program.cs" Line="28" Column="14" />
+      <File FileName="Board.cs" Line="9" Column="27" />
+      <File FileName="Player.cs" Line="33" Column="33" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Part2" expanded="True">
-            <Node name="Part2" expanded="True" />
+            <Node name="Part2" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

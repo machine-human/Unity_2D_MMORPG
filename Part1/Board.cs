@@ -9,6 +9,9 @@ namespace Part2
         public int Size { get; private set; }
         const char CIRCLE = '\u25cf';
 
+        public int DestY { get; private set; }
+        public int DestX { get; private set; }
+
         Player _player;
 
         public enum TileType
@@ -27,6 +30,9 @@ namespace Part2
 
             Tile = new TileType[size, size];
             Size = size;
+
+            DestY = Size - 2;
+            DestX = Size - 2;
 
             // Mazes for Programmers 책에서 나오는 2개의 미로 찾기 알고리즘
             // GenerateByBinaryTree();
@@ -96,8 +102,10 @@ namespace Part2
                 for (int x = 0; x < Size; x++)
                 {
                     // 플레이어 좌표를 갖고 와서, 그 좌표랑 현재 y, x가 일치하면 플레이어 전용 색상으로 표시
-                    if(y == _player.PosY && x == _player.PosX )
+                    if (y == _player.PosY && x == _player.PosX)
                         Console.ForegroundColor = ConsoleColor.White;
+                    else if (y == DestY && x == DestX)
+                        Console.ForegroundColor = ConsoleColor.Yellow;
                     else
                         Console.ForegroundColor = GetTileColor(Tile[y, x]);
                   
