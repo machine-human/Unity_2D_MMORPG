@@ -1,18 +1,16 @@
-﻿<Properties StartupConfiguration="{5636CDD0-5B82-4C9B-8834-95681B83913B}|Default">
+﻿<Properties StartupConfiguration="{5AD2F848-10EE-47DD-AC06-6D2C0993956C}|Default">
+  <MonoDevelop.Ide.ItemProperties.Exercise FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Part2 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Part1/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Exercise/Program.cs">
     <Files>
       <File FileName="Part1/Program.cs" Line="3" Column="16" />
+      <File FileName="Exercise/Program.cs" Line="3" Column="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Part2" expanded="True">
-            <Node name="Part2" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="FrameworkReferences" expanded="True" />
-              </Node>
-            </Node>
+            <Node name="Exercise" expanded="True" />
           </Node>
         </State>
       </Pad>
