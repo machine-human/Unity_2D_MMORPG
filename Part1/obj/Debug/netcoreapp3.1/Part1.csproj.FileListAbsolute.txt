@@ -12,3 +12,17 @@
 /Users/ohjisoo/Documents/workspace/Part1/Part1/obj/Debug/netcoreapp3.1/Part1.dll
 /Users/ohjisoo/Documents/workspace/Part1/Part1/obj/Debug/netcoreapp3.1/Part1.pdb
 /Users/ohjisoo/Documents/workspace/Part1/Part1/obj/Debug/netcoreapp3.1/Part1.genruntimeconfig.cache
+/Users/ohjisoo/Documents/workspace/Unity_2D_MMORPG/Part1/bin/Debug/netcoreapp3.1/Part1
+/Users/ohjisoo/Documents/workspace/Unity_2D_MMORPG/Part1/bin/Debug/netcoreapp3.1/Part1.deps.json
+/Users/ohjisoo/Documents/workspace/Unity_2D_MMORPG/Part1/bin/Debug/netcoreapp3.1/Part1.runtimeconfig.json
+/Users/ohjisoo/Documents/workspace/Unity_2D_MMORPG/Part1/bin/Debug/netcoreapp3.1/Part1.runtimeconfig.dev.json
+/Users/ohjisoo/Documents/workspace/Unity_2D_MMORPG/Part1/bin/Debug/netcoreapp3.1/Part1.dll
+/Users/ohjisoo/Documents/workspace/Unity_2D_MMORPG/Part1/bin/Debug/netcoreapp3.1/Part1.pdb
+/Users/ohjisoo/Documents/workspace/Unity_2D_MMORPG/Part1/obj/Debug/netcoreapp3.1/Part1.csproj.AssemblyReference.cache
+/Users/ohjisoo/Documents/workspace/Unity_2D_MMORPG/Part1/obj/Debug/netcoreapp3.1/Part1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ohjisoo/Documents/workspace/Unity_2D_MMORPG/Part1/obj/Debug/netcoreapp3.1/Part1.AssemblyInfoInputs.cache
+/Users/ohjisoo/Documents/workspace/Unity_2D_MMORPG/Part1/obj/Debug/netcoreapp3.1/Part1.AssemblyInfo.cs
+/Users/ohjisoo/Documents/workspace/Unity_2D_MMORPG/Part1/obj/Debug/netcoreapp3.1/Part1.csproj.CoreCompileInputs.cache
+/Users/ohjisoo/Documents/workspace/Unity_2D_MMORPG/Part1/obj/Debug/netcoreapp3.1/Part1.dll
+/Users/ohjisoo/Documents/workspace/Unity_2D_MMORPG/Part1/obj/Debug/netcoreapp3.1/Part1.pdb
+/Users/ohjisoo/Documents/workspace/Unity_2D_MMORPG/Part1/obj/Debug/netcoreapp3.1/Part1.genruntimeconfig.cache
