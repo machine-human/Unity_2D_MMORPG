@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{5AD2F848-10EE-47DD-AC06-6D2C0993956C}|Default">
-  <MonoDevelop.Ide.ItemProperties.Exercise FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Exercise PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Part2 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Exercise/Program.cs">
     <Files>
